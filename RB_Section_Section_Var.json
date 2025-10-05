@@ -1,0 +1,529 @@
+{
+  "$": "bitfocus-buttons-clipboard",
+  "type": "elements",
+  "elements": [
+    {
+      "id": "zfste1WJTMqs",
+      "schemaVersion": 2,
+      "type": "section",
+      "label": "Section 1",
+      "location": {
+        "staticPosition": {
+          "x": 0,
+          "y": 3
+        },
+        "size": {
+          "w": 6,
+          "h": 1
+        }
+      },
+      "state": [
+        {
+          "id": "tYFqPzeFtK29",
+          "name": "var_scene_nr",
+          "type": "number",
+          "value": 0,
+          "initialValue": 0
+        }
+      ],
+      "pages": [],
+      "style": {},
+      "items": [
+        {
+          "id": "Pz8k5f0Lzy7m",
+          "schemaVersion": 3,
+          "type": "button",
+          "location": {
+            "staticPosition": {
+              "x": 0,
+              "y": 0
+            },
+            "size": {
+              "w": 1,
+              "h": 1
+            }
+          },
+          "buttonType": "basic",
+          "buttonStyle": "twoLines",
+          "buttonContent": {
+            "icon": "shield",
+            "text": "Scene",
+            "text2": "1"
+          },
+          "actionSteps": [
+            {
+              "actionSet": {
+                "down": {
+                  "actions": [
+                    {
+                      "type": "internal",
+                      "entityType": "action",
+                      "id": "wHAW48G3zGVG",
+                      "actionId": "section_set_variable",
+                      "values": {
+                        "variableId": "var_scene_nr",
+                        "value": 1
+                      },
+                      "delay": 0,
+                      "enabled": true
+                    }
+                  ],
+                  "options": {}
+                }
+              },
+              "options": {
+                "runWhileHeld": false
+              }
+            }
+          ],
+          "feedbacks": [
+            {
+              "type": "internal",
+              "entityType": "feedback",
+              "id": "V5QXk2jZqY6G",
+              "feedbackId": "expression",
+              "label": "Expression",
+              "values": {
+                "expression": {
+                  "_adv": true,
+                  "type": "exp",
+                  "val": "_EXP_($(parent.state.var_scene_nr)==1)"
+                }
+              },
+              "content": {
+                "buttonContent": {
+                  "contextBgColor": [
+                    "red",
+                    "600"
+                  ],
+                  "bgColor": [
+                    "red",
+                    "700"
+                  ]
+                }
+              },
+              "enabled": true
+            }
+          ],
+          "repeater": {
+            "enabled": false,
+            "amount": 5,
+            "variableIndexSkip": 1,
+            "variableIndexStart": 1,
+            "direction": "x"
+          },
+          "actionOptions": {
+            "stepAutoProgress": true,
+            "relativeDelay": true
+          },
+          "items": []
+        },
+        {
+          "id": "OC1pQLZsHuHE",
+          "schemaVersion": 3,
+          "type": "button",
+          "location": {
+            "staticPosition": {
+              "x": 1,
+              "y": 0
+            },
+            "size": {
+              "w": 1,
+              "h": 1
+            }
+          },
+          "buttonType": "basic",
+          "buttonStyle": "twoLines",
+          "buttonContent": {
+            "icon": "shield",
+            "text": "Scene",
+            "text2": "2"
+          },
+          "actionSteps": [
+            {
+              "actionSet": {
+                "down": {
+                  "actions": [
+                    {
+                      "type": "internal",
+                      "entityType": "action",
+                      "id": "VeG5AeoZBSAX",
+                      "actionId": "section_set_variable",
+                      "values": {
+                        "target": "parent",
+                        "variableId": "var_scene_nr",
+                        "value": 2
+                      },
+                      "delay": 0,
+                      "enabled": true
+                    }
+                  ],
+                  "options": {}
+                }
+              },
+              "options": {
+                "runWhileHeld": false
+              }
+            }
+          ],
+          "feedbacks": [
+            {
+              "type": "internal",
+              "entityType": "feedback",
+              "id": "K4Lru2o9p1Sr",
+              "feedbackId": "expression",
+              "label": "Expression",
+              "values": {
+                "expression": {
+                  "_adv": true,
+                  "type": "exp",
+                  "val": "_EXP_($(parent.state.var_scene_nr)==2)"
+                }
+              },
+              "content": {
+                "buttonContent": {
+                  "contextBgColor": [
+                    "red",
+                    "600"
+                  ],
+                  "bgColor": [
+                    "red",
+                    "700"
+                  ]
+                }
+              },
+              "enabled": true
+            }
+          ],
+          "repeater": {
+            "enabled": false,
+            "amount": 5,
+            "variableIndexSkip": 1,
+            "variableIndexStart": 1,
+            "direction": "x"
+          },
+          "actionOptions": {
+            "stepAutoProgress": true,
+            "relativeDelay": true
+          },
+          "items": []
+        },
+        {
+          "id": "y1NPnwW9GwYz",
+          "schemaVersion": 3,
+          "type": "button",
+          "location": {
+            "staticPosition": {
+              "x": 2,
+              "y": 0
+            },
+            "size": {
+              "w": 1,
+              "h": 1
+            }
+          },
+          "buttonType": "basic",
+          "buttonStyle": "twoLines",
+          "buttonContent": {
+            "icon": "shield",
+            "text": "Scene",
+            "text2": "3"
+          },
+          "actionSteps": [
+            {
+              "actionSet": {
+                "down": {
+                  "actions": [
+                    {
+                      "type": "internal",
+                      "entityType": "action",
+                      "id": "koDjYCYnL1qn",
+                      "actionId": "section_set_variable",
+                      "values": {
+                        "target": "parent",
+                        "variableId": "var_scene_nr",
+                        "value": 3
+                      },
+                      "delay": 0,
+                      "enabled": true
+                    }
+                  ],
+                  "options": {}
+                }
+              },
+              "options": {
+                "runWhileHeld": false
+              }
+            }
+          ],
+          "feedbacks": [
+            {
+              "type": "internal",
+              "entityType": "feedback",
+              "id": "tO3QDT4QjVqG",
+              "feedbackId": "expression",
+              "label": "Expression",
+              "values": {
+                "expression": {
+                  "_adv": true,
+                  "type": "exp",
+                  "val": "_EXP_($(parent.state.var_scene_nr)==3)"
+                }
+              },
+              "content": {
+                "buttonContent": {
+                  "contextBgColor": [
+                    "red",
+                    "600"
+                  ],
+                  "bgColor": [
+                    "red",
+                    "700"
+                  ]
+                }
+              },
+              "enabled": true
+            }
+          ],
+          "repeater": {
+            "enabled": false,
+            "amount": 5,
+            "variableIndexSkip": 1,
+            "variableIndexStart": 1,
+            "direction": "x"
+          },
+          "actionOptions": {
+            "stepAutoProgress": true,
+            "relativeDelay": true
+          },
+          "items": []
+        },
+        {
+          "id": "yEI9itKRMTL3",
+          "schemaVersion": 3,
+          "type": "button",
+          "location": {
+            "staticPosition": {
+              "x": 3,
+              "y": 0
+            },
+            "size": {
+              "w": 1,
+              "h": 1
+            }
+          },
+          "buttonType": "basic",
+          "buttonStyle": "twoLines",
+          "buttonContent": {
+            "icon": "shield",
+            "text": "Scene",
+            "text2": "4"
+          },
+          "actionSteps": [
+            {
+              "actionSet": {
+                "down": {
+                  "actions": [
+                    {
+                      "type": "internal",
+                      "entityType": "action",
+                      "id": "jLdOsCZl1P2G",
+                      "actionId": "section_set_variable",
+                      "values": {
+                        "target": "parent",
+                        "variableId": "var_scene_nr",
+                        "value": 4
+                      },
+                      "delay": 0,
+                      "enabled": true
+                    }
+                  ],
+                  "options": {}
+                }
+              },
+              "options": {
+                "runWhileHeld": false
+              }
+            }
+          ],
+          "feedbacks": [
+            {
+              "type": "internal",
+              "entityType": "feedback",
+              "id": "2Rxw0Q4nscVt",
+              "feedbackId": "expression",
+              "label": "Expression",
+              "values": {
+                "expression": {
+                  "_adv": true,
+                  "type": "exp",
+                  "val": "_EXP_($(parent.state.var_scene_nr)==4)"
+                }
+              },
+              "content": {
+                "buttonContent": {
+                  "contextBgColor": [
+                    "red",
+                    "600"
+                  ],
+                  "bgColor": [
+                    "red",
+                    "700"
+                  ]
+                }
+              },
+              "enabled": true
+            }
+          ],
+          "repeater": {
+            "enabled": false,
+            "amount": 5,
+            "variableIndexSkip": 1,
+            "variableIndexStart": 1,
+            "direction": "x"
+          },
+          "actionOptions": {
+            "stepAutoProgress": true,
+            "relativeDelay": true
+          },
+          "items": []
+        },
+        {
+          "id": "409bUPtn0FlP",
+          "schemaVersion": 3,
+          "type": "button",
+          "location": {
+            "staticPosition": {
+              "x": 4,
+              "y": 0
+            },
+            "size": {
+              "w": 1,
+              "h": 1
+            }
+          },
+          "buttonType": "basic",
+          "buttonStyle": "twoLines",
+          "buttonContent": {
+            "icon": "shield",
+            "text": "Scene",
+            "text2": "5"
+          },
+          "actionSteps": [
+            {
+              "actionSet": {
+                "down": {
+                  "actions": [
+                    {
+                      "type": "internal",
+                      "entityType": "action",
+                      "id": "rgyIQ48iwSeu",
+                      "actionId": "section_set_variable",
+                      "values": {
+                        "target": "parent",
+                        "variableId": "var_scene_nr",
+                        "value": 5
+                      },
+                      "delay": 0,
+                      "enabled": true
+                    }
+                  ],
+                  "options": {}
+                }
+              },
+              "options": {
+                "runWhileHeld": false
+              }
+            }
+          ],
+          "feedbacks": [
+            {
+              "type": "internal",
+              "entityType": "feedback",
+              "id": "inA4OX94PrP0",
+              "feedbackId": "expression",
+              "label": "Expression",
+              "values": {
+                "expression": {
+                  "_adv": true,
+                  "type": "exp",
+                  "val": "_EXP_($(parent.state.var_scene_nr)==5)"
+                }
+              },
+              "content": {
+                "buttonContent": {
+                  "contextBgColor": [
+                    "red",
+                    "600"
+                  ],
+                  "bgColor": [
+                    "red",
+                    "700"
+                  ]
+                }
+              },
+              "enabled": true
+            }
+          ],
+          "repeater": {
+            "enabled": false,
+            "amount": 5,
+            "variableIndexSkip": 1,
+            "variableIndexStart": 1,
+            "direction": "x"
+          },
+          "actionOptions": {
+            "stepAutoProgress": true,
+            "relativeDelay": true
+          },
+          "items": []
+        },
+        {
+          "id": "fk4Y7N9hx91z",
+          "schemaVersion": 3,
+          "type": "button",
+          "location": {
+            "staticPosition": {
+              "x": 5,
+              "y": 0
+            },
+            "size": {
+              "w": 1,
+              "h": 1
+            }
+          },
+          "buttonType": "basic",
+          "buttonStyle": "twoLines",
+          "buttonContent": {
+            "icon": "shield",
+            "text": "Active",
+            "text2": "$(parent.state.var_scene_nr)"
+          },
+          "actionSteps": [
+            {
+              "actionSet": {
+                "down": {
+                  "actions": [],
+                  "options": {}
+                },
+                "up": {
+                  "actions": [],
+                  "options": {}
+                }
+              },
+              "options": {
+                "runWhileHeld": false
+              }
+            }
+          ],
+          "feedbacks": [],
+          "actionOptions": {
+            "stepAutoProgress": true,
+            "relativeDelay": true
+          },
+          "items": []
+        }
+      ]
+    }
+  ]
+}

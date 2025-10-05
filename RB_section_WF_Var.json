@@ -1,0 +1,521 @@
+{
+    "$": "bitfocus-buttons-clipboard",
+    "type": "elements",
+    "elements": [
+        {
+            "type": "section",
+            "pages": [],
+            "schemaVersion": 2,
+            "label": "Section 1",
+            "style": {},
+            "location": {
+                "size": {
+                    "w": 6,
+                    "h": 1
+                },
+                "staticPosition": {
+                    "x": 0,
+                    "y": 5
+                }
+            },
+            "id": "ixYKzMHp73Uy",
+            "items": [
+                {
+                    "type": "button",
+                    "buttonType": "basic",
+                    "schemaVersion": 3,
+                    "actionSteps": [
+                        {
+                            "actionSet": {
+                                "down": {
+                                    "actions": [
+                                        {
+                                            "id": "b6xsu6xxraTy",
+                                            "entityType": "action",
+                                            "type": "internal",
+                                            "actionId": "workflow_set_variable",
+                                            "values": {
+                                                "workflowId": "irjqpmsiu9h760ef3hmr3rx1",
+                                                "variableId": "light_scene",
+                                                "value": "1"
+                                            },
+                                            "delay": 0,
+                                            "enabled": true
+                                        }
+                                    ],
+                                    "options": {}
+                                }
+                            },
+                            "options": {
+                                "runWhileHeld": false
+                            }
+                        }
+                    ],
+                    "actionOptions": {
+                        "stepAutoProgress": true,
+                        "relativeDelay": true
+                    },
+                    "feedbacks": [
+                        {
+                            "id": "NR41ld48bUFN",
+                            "entityType": "feedback",
+                            "type": "internal",
+                            "label": "Expression",
+                            "feedbackId": "expression",
+                            "values": {
+                                "expression": {
+                                    "_adv": true,
+                                    "type": "exp",
+                                    "val": "_EXP_($(Variables.light_scene)==1)"
+                                }
+                            },
+                            "content": {
+                                "buttonContent": {
+                                    "contextBgColor": [
+                                        "red",
+                                        "600"
+                                    ],
+                                    "bgColor": [
+                                        "red",
+                                        "700"
+                                    ]
+                                }
+                            },
+                            "enabled": true
+                        }
+                    ],
+                    "location": {
+                        "size": {
+                            "w": 1,
+                            "h": 1
+                        },
+                        "staticPosition": {
+                            "x": 0,
+                            "y": 0
+                        }
+                    },
+                    "buttonStyle": "twoLines",
+                    "buttonContent": {
+                        "text": "Scene",
+                        "icon": "shield",
+                        "text2": "1"
+                    },
+                    "repeater": {
+                        "enabled": false,
+                        "direction": "x",
+                        "variableIndexStart": 1,
+                        "variableIndexSkip": 1,
+                        "amount": 5
+                    },
+                    "id": "ztvMDUA75I5P",
+                    "items": []
+                },
+                {
+                    "schemaVersion": 3,
+                    "type": "button",
+                    "location": {
+                        "staticPosition": {
+                            "x": 1,
+                            "y": 0
+                        },
+                        "size": {
+                            "w": 1,
+                            "h": 1
+                        }
+                    },
+                    "buttonType": "basic",
+                    "buttonStyle": "twoLines",
+                    "buttonContent": {
+                        "icon": "shield",
+                        "text": "Scene",
+                        "text2": "2"
+                    },
+                    "actionSteps": [
+                        {
+                            "actionSet": {
+                                "down": {
+                                    "actions": [
+                                        {
+                                            "type": "internal",
+                                            "entityType": "action",
+                                            "id": "AefY1PGARCO3",
+                                            "actionId": "workflow_set_variable",
+                                            "values": {
+                                                "workflowId": "irjqpmsiu9h760ef3hmr3rx1",
+                                                "variableId": "light_scene",
+                                                "value": "2"
+                                            },
+                                            "delay": 0,
+                                            "enabled": true
+                                        }
+                                    ],
+                                    "options": {}
+                                }
+                            },
+                            "options": {
+                                "runWhileHeld": false
+                            }
+                        }
+                    ],
+                    "feedbacks": [
+                        {
+                            "type": "internal",
+                            "entityType": "feedback",
+                            "id": "4orEURw8i4jO",
+                            "feedbackId": "expression",
+                            "label": "Expression",
+                            "values": {
+                                "expression": {
+                                    "_adv": true,
+                                    "type": "exp",
+                                    "val": "_EXP_($(Variables.light_scene)==2)"
+                                }
+                            },
+                            "content": {
+                                "buttonContent": {
+                                    "contextBgColor": [
+                                        "red",
+                                        "600"
+                                    ],
+                                    "bgColor": [
+                                        "red",
+                                        "700"
+                                    ]
+                                }
+                            },
+                            "enabled": true
+                        }
+                    ],
+                    "repeater": {
+                        "enabled": false,
+                        "amount": 5,
+                        "variableIndexSkip": 1,
+                        "variableIndexStart": 1,
+                        "direction": "x"
+                    },
+                    "actionOptions": {
+                        "stepAutoProgress": true,
+                        "relativeDelay": true
+                    },
+                    "id": "Ly2OZAsAOqpB",
+                    "items": []
+                },
+                {
+                    "schemaVersion": 3,
+                    "type": "button",
+                    "location": {
+                        "staticPosition": {
+                            "x": 2,
+                            "y": 0
+                        },
+                        "size": {
+                            "w": 1,
+                            "h": 1
+                        }
+                    },
+                    "buttonType": "basic",
+                    "buttonStyle": "twoLines",
+                    "buttonContent": {
+                        "icon": "shield",
+                        "text": "Scene",
+                        "text2": "3"
+                    },
+                    "actionSteps": [
+                        {
+                            "actionSet": {
+                                "down": {
+                                    "actions": [
+                                        {
+                                            "type": "internal",
+                                            "entityType": "action",
+                                            "id": "iKZ46f6bfTTV",
+                                            "actionId": "workflow_set_variable",
+                                            "values": {
+                                                "workflowId": "irjqpmsiu9h760ef3hmr3rx1",
+                                                "variableId": "light_scene",
+                                                "value": "3"
+                                            },
+                                            "delay": 0,
+                                            "enabled": true
+                                        }
+                                    ],
+                                    "options": {}
+                                }
+                            },
+                            "options": {
+                                "runWhileHeld": false
+                            }
+                        }
+                    ],
+                    "feedbacks": [
+                        {
+                            "type": "internal",
+                            "entityType": "feedback",
+                            "id": "nFTD9XWAYTU4",
+                            "feedbackId": "expression",
+                            "label": "Expression",
+                            "values": {
+                                "expression": {
+                                    "_adv": true,
+                                    "type": "exp",
+                                    "val": "_EXP_($(Variables.light_scene)==3)"
+                                }
+                            },
+                            "content": {
+                                "buttonContent": {
+                                    "contextBgColor": [
+                                        "red",
+                                        "600"
+                                    ],
+                                    "bgColor": [
+                                        "red",
+                                        "700"
+                                    ]
+                                }
+                            },
+                            "enabled": true
+                        }
+                    ],
+                    "repeater": {
+                        "enabled": false,
+                        "amount": 5,
+                        "variableIndexSkip": 1,
+                        "variableIndexStart": 1,
+                        "direction": "x"
+                    },
+                    "actionOptions": {
+                        "stepAutoProgress": true,
+                        "relativeDelay": true
+                    },
+                    "id": "1OSK55yawWUb",
+                    "items": []
+                },
+                {
+                    "schemaVersion": 3,
+                    "type": "button",
+                    "location": {
+                        "staticPosition": {
+                            "x": 3,
+                            "y": 0
+                        },
+                        "size": {
+                            "w": 1,
+                            "h": 1
+                        }
+                    },
+                    "buttonType": "basic",
+                    "buttonStyle": "twoLines",
+                    "buttonContent": {
+                        "icon": "shield",
+                        "text": "Scene",
+                        "text2": "4"
+                    },
+                    "actionSteps": [
+                        {
+                            "actionSet": {
+                                "down": {
+                                    "actions": [
+                                        {
+                                            "type": "internal",
+                                            "entityType": "action",
+                                            "id": "Dx6K6KYNfrqK",
+                                            "actionId": "workflow_set_variable",
+                                            "values": {
+                                                "workflowId": "irjqpmsiu9h760ef3hmr3rx1",
+                                                "variableId": "light_scene",
+                                                "value": "4"
+                                            },
+                                            "delay": 0,
+                                            "enabled": true
+                                        }
+                                    ],
+                                    "options": {}
+                                }
+                            },
+                            "options": {
+                                "runWhileHeld": false
+                            }
+                        }
+                    ],
+                    "feedbacks": [
+                        {
+                            "type": "internal",
+                            "entityType": "feedback",
+                            "id": "caNeaLThLUw7",
+                            "feedbackId": "expression",
+                            "label": "Expression",
+                            "values": {
+                                "expression": {
+                                    "_adv": true,
+                                    "type": "exp",
+                                    "val": "_EXP_($(Variables.light_scene)==4)"
+                                }
+                            },
+                            "content": {
+                                "buttonContent": {
+                                    "contextBgColor": [
+                                        "red",
+                                        "600"
+                                    ],
+                                    "bgColor": [
+                                        "red",
+                                        "700"
+                                    ]
+                                }
+                            },
+                            "enabled": true
+                        }
+                    ],
+                    "repeater": {
+                        "enabled": false,
+                        "amount": 5,
+                        "variableIndexSkip": 1,
+                        "variableIndexStart": 1,
+                        "direction": "x"
+                    },
+                    "actionOptions": {
+                        "stepAutoProgress": true,
+                        "relativeDelay": true
+                    },
+                    "id": "Pkw7opUH99tW",
+                    "items": []
+                },
+                {
+                    "schemaVersion": 3,
+                    "type": "button",
+                    "location": {
+                        "staticPosition": {
+                            "x": 4,
+                            "y": 0
+                        },
+                        "size": {
+                            "w": 1,
+                            "h": 1
+                        }
+                    },
+                    "buttonType": "basic",
+                    "buttonStyle": "twoLines",
+                    "buttonContent": {
+                        "icon": "shield",
+                        "text": "Scene",
+                        "text2": "5"
+                    },
+                    "actionSteps": [
+                        {
+                            "actionSet": {
+                                "down": {
+                                    "actions": [
+                                        {
+                                            "type": "internal",
+                                            "entityType": "action",
+                                            "id": "RCfKKEzIazMl",
+                                            "actionId": "workflow_set_variable",
+                                            "values": {
+                                                "workflowId": "irjqpmsiu9h760ef3hmr3rx1",
+                                                "variableId": "light_scene",
+                                                "value": "5"
+                                            },
+                                            "delay": 0,
+                                            "enabled": true
+                                        }
+                                    ],
+                                    "options": {}
+                                }
+                            },
+                            "options": {
+                                "runWhileHeld": false
+                            }
+                        }
+                    ],
+                    "feedbacks": [
+                        {
+                            "type": "internal",
+                            "entityType": "feedback",
+                            "id": "cY2VWjNNRYgJ",
+                            "feedbackId": "expression",
+                            "label": "Expression",
+                            "values": {
+                                "expression": {
+                                    "_adv": true,
+                                    "type": "exp",
+                                    "val": "_EXP_($(Variables.light_scene)==5)"
+                                }
+                            },
+                            "content": {
+                                "buttonContent": {
+                                    "contextBgColor": [
+                                        "red",
+                                        "600"
+                                    ],
+                                    "bgColor": [
+                                        "red",
+                                        "700"
+                                    ]
+                                }
+                            },
+                            "enabled": true
+                        }
+                    ],
+                    "repeater": {
+                        "enabled": false,
+                        "amount": 5,
+                        "variableIndexSkip": 1,
+                        "variableIndexStart": 1,
+                        "direction": "x"
+                    },
+                    "actionOptions": {
+                        "stepAutoProgress": true,
+                        "relativeDelay": true
+                    },
+                    "id": "iAqi5eTpD6mi",
+                    "items": []
+                },
+                {
+                    "type": "button",
+                    "buttonType": "basic",
+                    "schemaVersion": 3,
+                    "actionSteps": [
+                        {
+                            "actionSet": {
+                                "down": {
+                                    "actions": [],
+                                    "options": {}
+                                },
+                                "up": {
+                                    "actions": [],
+                                    "options": {}
+                                }
+                            },
+                            "options": {
+                                "runWhileHeld": false
+                            }
+                        }
+                    ],
+                    "actionOptions": {
+                        "stepAutoProgress": true,
+                        "relativeDelay": true
+                    },
+                    "feedbacks": [],
+                    "location": {
+                        "size": {
+                            "w": 1,
+                            "h": 1
+                        },
+                        "staticPosition": {
+                            "x": 5,
+                            "y": 0
+                        }
+                    },
+                    "buttonStyle": "twoLines",
+                    "buttonContent": {
+                        "text": "Active",
+                        "icon": "shield",
+                        "text2": "$(Variables.light_scene)"
+                    },
+                    "id": "tKtWmoljhVZm",
+                    "items": []
+                }
+            ]
+        }
+    ]
+}
