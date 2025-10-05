@@ -1,0 +1,1 @@
+the RB_Section_WF_Var.json  section requires a Workflow Named *Variables* with a Workflow variable Named *light_scene*
